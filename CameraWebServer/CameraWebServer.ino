@@ -33,8 +33,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "bitki";
-const char* password = "12345678";
+const char* ssid = "name";
+const char* password = "password";
 
 void startCameraServer();
 
@@ -145,3 +145,4 @@ void loop() {
   // Do nothing. Everything is done in another task by the web server
   delay(10000);
 }
+
